@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel_booking.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./img/icons8-hotel-check-in-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .container {
+            background-image: url("https://source.unsplash.com/user/erondu");
+            background-repeat: no-repeat;
+            height: 92vh;
+            background-size: cover;
+            opacity: 0.85;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul class=" flex justify-around items-center bg-black text-white h-16">
+            <li><img src="./img/icons8-hotel-64.png" alt=""></li>
+            <li class="hover:underline hover:cursor-pointer">Home</li>
+            <li class="hover:underline hover:cursor-pointer">Rooms & Suies</li>
+            <li class="hover:underline hover:cursor-pointer">Special offers</li>
+            <li class="hover:underline hover:cursor-pointer">Restaurants</li>
+            <li class="hover:underline hover:cursor-pointer">Meetings & Events</li>
+            <li class="hover:underline hover:cursor-pointer">Fitness & Wellness</li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="container h-scren">
+        <nav class="h-32 flex justify-around items-center bg-black opacity-80 text-white">
+            <p>check:in <input type="number" placeholder="MM-DD-YYY" class="text-black rounded-sm pl-2"> <i class="bi bi-calendar3"></i>
+            </p>
+            <p>check:out <input type="text" placeholder="MM-DD-YYY" class="text-black rounded-sm pl-2"> <i class="bi bi-calendar3"></i>
+            </p>
+            <p>Rooms: <input type="number" placeholder="1" class="w-12 rounded-sm text-black pl-2"> </p>
+            <p>No. of Guests: <input type="number" placeholder="1" class="rounded-sm text-black pl-2 w-12"></p>
+            <button class="bg-gray-600 w-44 h-10 rounded-md hover:text-xl hover:bg-gray-800"> Book Now</button>
+
+        </nav>
+        <section class="relative">
+            <div class="w-52 h-20 border-4 text-white text-2xl absolute top-36 left-24"><h1>The Cottages at BOUBON LAKE</h1></div>
+            <div class="w-80 border-solid text-white text-2xl absolute top-60 left-24">BOOK A STAY AT <br> ONE OF OUR COTTAGE ALONG BOUBON LAKE</div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
